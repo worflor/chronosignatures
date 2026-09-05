@@ -184,7 +184,7 @@ def build_gesaffelstein_remix() -> Score:
     ]
     
     return Score(
-        title="07 Cumulant Cascade (Gesaffelstein Cyber-Industrial Remix)",
+        title="07 Cumulant Cascade (Gesaffelstein Cyber-Industrial Style)",
         schema_version="2.3",
         seed=808,
         bpm=106.0,

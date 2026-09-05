@@ -34,7 +34,7 @@ Every track is procedurally composed and deterministically reproducible from a s
 | 01 Zero Temperature Limit | 02 Circulation on the Simplex | 03 Noncommutative Horizon | 04 The Aitchison Drift |
 | :---: | :---: | :---: | :---: |
 | <img src="art/01_zero_temperature_limit.jpg" width="220" /> | <img src="art/02_circulation_on_the_simplex.jpg" width="220" /> | <img src="art/03_noncommutative_horizon.jpg" width="220" /> | <img src="art/04_the_aitchison_drift.jpg" width="220" /> |
-| **05 Cumulant Cascade** | **06 The Gauge-Corrected Heart** | **07 Gesaffelstein Remix** | **08 LE SSERAFIM Remix** |
+| **05 Cumulant Cascade** | **06 The Gauge-Corrected Heart** | **07 Gesaffelstein Style** | **08 LE SSERAFIM Style** |
 | <img src="art/05_cumulant_cascade.jpg" width="220" /> | <img src="art/06_the_gauge_corrected_heart.jpg" width="220" /> | <img src="art/05_cumulant_cascade_gesaffelstein_remix.jpg" width="220" /> | <img src="art/05_cumulant_cascade_lesserafim_remix.jpg" width="220" /> |
 
 ---
@@ -58,7 +58,7 @@ Every track is procedurally composed and deterministically reproducible from a s
 
 | # | Art | Remix Title | Style Homage | Tempo / Meter | LUFS | Downloads |
 | :---: | :---: | :--- | :--- | :---: | :---: | :--- |
-| **07** | <img src="art/05_cumulant_cascade_gesaffelstein_remix.jpg" width="56" /> | **Cumulant Cascade (Gesaffelstein Remix)** | Dark Cyber-Industrial / French EBM Techno (in the style of Gesaffelstein) | 106 BPM, 4/4 | **-14.20** | [WAV](tracks/05_cumulant_cascade_gesaffelstein_remix.wav) \| [MP3](tracks/05_cumulant_cascade_gesaffelstein_remix.mp3) \| [MIDI](tracks/05_cumulant_cascade_gesaffelstein_remix.mid) \| [MusicXML](tracks/05_cumulant_cascade_gesaffelstein_remix.musicxml) |
+| **07** | <img src="art/05_cumulant_cascade_gesaffelstein_remix.jpg" width="56" /> | **Cumulant Cascade (Gesaffelstein Style)** | Dark Cyber-Industrial / French EBM Techno (in the style of Gesaffelstein) | 106 BPM, 4/4 | **-14.20** | [WAV](tracks/05_cumulant_cascade_gesaffelstein_remix.wav) \| [MP3](tracks/05_cumulant_cascade_gesaffelstein_remix.mp3) \| [MIDI](tracks/05_cumulant_cascade_gesaffelstein_remix.mid) \| [MusicXML](tracks/05_cumulant_cascade_gesaffelstein_remix.musicxml) |
 | **08** | <img src="art/05_cumulant_cascade_lesserafim_remix.jpg" width="56" /> | **Cumulant Cascade (LE SSERAFIM Style)** | High-Octane K-Pop Dance / Afrobeat Dembow (in the style of LE SSERAFIM) | 110 BPM, 4/4 | **-14.00** | [WAV](tracks/05_cumulant_cascade_lesserafim_remix.wav) \| [MP3](tracks/05_cumulant_cascade_lesserafim_remix.mp3) \| [MIDI](tracks/05_cumulant_cascade_lesserafim_remix.mid) \| [MusicXML](tracks/05_cumulant_cascade_lesserafim_remix.musicxml) |
 
 ---
@@ -73,8 +73,8 @@ Every track is procedurally composed and deterministically reproducible from a s
 | **04 The Aitchison Drift** | **-15.50** | -11.04 | 7.4 dB | 2196.0 Hz | 99.5% | 84.13 bits | 0.4054 |
 | **05 Cumulant Cascade** | **-15.00** | -10.10 | 8.1 dB | 2119.4 Hz | 99.5% | 77.70 bits | 0.5550 |
 | **06 The Gauge-Corrected Heart** | **-14.80** | -1.73 | 16.5 dB | 2156.7 Hz | 99.8% | 144.08 bits | 0.5165 |
-| **07 Gesaffelstein Remix** | **-14.20** | -7.04 | 9.2 dB | 1219.2 Hz | 99.8% | 89.40 bits | 0.6200 |
-| **08 LE SSERAFIM Remix** | **-14.00** | -9.99 | 7.8 dB | 2501.5 Hz | 99.8% | 94.60 bits | 0.6450 |
+| **07 Gesaffelstein Style** | **-14.20** | -7.04 | 9.2 dB | 1219.2 Hz | 99.8% | 89.40 bits | 0.6200 |
+| **08 LE SSERAFIM Style** | **-14.00** | -9.99 | 7.8 dB | 2501.5 Hz | 99.8% | 94.60 bits | 0.6450 |
 
 ---
 
@@ -98,7 +98,7 @@ Every track is procedurally composed and deterministically reproducible from a s
 ### Track 06: The Gauge-Corrected Heart
 - **Concept**: The album's emotional climax: a gauge-corrected Hamiltonian action built around a literal golden-ratio swell at the 61.8% mark, math resolving into something that sounds like feeling.
 
-### Track 07: Cumulant Cascade (Gesaffelstein Cyber-Industrial Remix)
+### Track 07: Cumulant Cascade (Gesaffelstein Cyber-Industrial Style)
 - **Concept**: A brutal, uncompromising contrast with the ambient warmth of the main album: heavy four-on-the-floor kicks, a squelching acid bassline, degraded vocal chops, and dark gated-room ambience.
 - **Artwork**: Remixed stepped obsidian & chromium crystal prisms from Track 05, in stark chiaroscuro with laser caustics and cyan edge highlights.
 
