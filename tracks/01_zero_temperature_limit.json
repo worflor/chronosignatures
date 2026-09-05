@@ -1,0 +1,726 @@
+{
+  "title": "01 Zero Temperature Limit",
+  "schema_version": "2.3",
+  "seed": 101,
+  "bpm": 68.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.53,
+  "groove_profile": "bossa_drift",
+  "key_root": "F",
+  "scale_type": "lydian",
+  "drum_kit": "default",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Fmaj9#11",
+        "bass_midi": 41,
+        "pad_notes": [
+          53,
+          57,
+          60,
+          64,
+          67,
+          71
+        ],
+        "stab_notes": [
+          60,
+          64,
+          67
+        ],
+        "bell_notes": [
+          64,
+          67,
+          71,
+          72,
+          76
+        ],
+        "vocal_notes": [
+          72,
+          76
+        ]
+      },
+      {
+        "name": "G9sus4",
+        "bass_midi": 43,
+        "pad_notes": [
+          55,
+          60,
+          62,
+          65,
+          69
+        ],
+        "stab_notes": [
+          60,
+          62,
+          65
+        ],
+        "bell_notes": [
+          62,
+          65,
+          69,
+          74
+        ],
+        "vocal_notes": [
+          74,
+          72
+        ]
+      },
+      {
+        "name": "Am11",
+        "bass_midi": 45,
+        "pad_notes": [
+          57,
+          60,
+          64,
+          67,
+          71,
+          74
+        ],
+        "stab_notes": [
+          60,
+          64,
+          67
+        ],
+        "bell_notes": [
+          64,
+          67,
+          71,
+          76
+        ],
+        "vocal_notes": [
+          76,
+          74
+        ]
+      },
+      {
+        "name": "Em9",
+        "bass_midi": 40,
+        "pad_notes": [
+          52,
+          55,
+          59,
+          62,
+          66
+        ],
+        "stab_notes": [
+          55,
+          59,
+          62
+        ],
+        "bell_notes": [
+          59,
+          62,
+          66,
+          71
+        ],
+        "vocal_notes": [
+          71,
+          67
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Ground_State",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.55,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 650.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Permutation_Symmetry",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.72,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 900.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "3_Condensate_Peak",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.88,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": true,
+      "filter_cutoff": 1250.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "4_Zero_Entropy_Return",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.45,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 550.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {
+    "shimmer_reverb": {
+      "id": "shimmer_reverb",
+      "fx_chain": [
+        {
+          "plugin_type": "reverb",
+          "params": {
+            "decay_time_s": 3.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "dimension",
+          "params": {
+            "width": 1.6,
+            "hp_side_hz": 200.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "volume_db": -3.5
+    },
+    "ambient_delay": {
+      "id": "ambient_delay",
+      "fx_chain": [
+        {
+          "plugin_type": "delay",
+          "params": {
+            "delay_time_s": 0.662,
+            "feedback": 0.35,
+            "damp_hz": 3600.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "volume_db": -4.0
+    }
+  },
+  "track_channels": [
+    {
+      "id": "waveguide_spires",
+      "instrument_id": "waveguide",
+      "events": [
+        {
+          "start_beat": 0.0,
+          "duration_beats": 7.0,
+          "midi_note": 65,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 8.0,
+          "duration_beats": 7.0,
+          "midi_note": 72,
+          "velocity": 0.45,
+          "pan": 0.15
+        },
+        {
+          "start_beat": 16.0,
+          "duration_beats": 7.0,
+          "midi_note": 76,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 24.0,
+          "duration_beats": 7.0,
+          "midi_note": 83,
+          "velocity": 0.45,
+          "pan": 0.15
+        },
+        {
+          "start_beat": 32.0,
+          "duration_beats": 7.0,
+          "midi_note": 79,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 40.0,
+          "duration_beats": 7.0,
+          "midi_note": 65,
+          "velocity": 0.45,
+          "pan": 0.15
+        },
+        {
+          "start_beat": 48.0,
+          "duration_beats": 7.0,
+          "midi_note": 72,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 56.0,
+          "duration_beats": 7.0,
+          "midi_note": 76,
+          "velocity": 0.45,
+          "pan": 0.15
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 7.0,
+          "midi_note": 83,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 7.0,
+          "midi_note": 79,
+          "velocity": 0.45,
+          "pan": 0.15
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 7.0,
+          "midi_note": 65,
+          "velocity": 0.45,
+          "pan": -0.15
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 7.0,
+          "midi_note": 72,
+          "velocity": 0.45,
+          "pan": 0.15
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 6500.0,
+            "mode": "lowpass"
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "shimmer_reverb": 0.55
+      },
+      "volume_db": -2.5,
+      "pan": 0.0,
+      "muted": false
+    },
+    {
+      "id": "granular_cryo_mist",
+      "instrument_id": "granular",
+      "events": [
+        {
+          "start_beat": 0.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 15.0,
+          "midi_note": 83,
+          "velocity": 0.3,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "dimension",
+          "params": {
+            "width": 1.8,
+            "hp_side_hz": 250.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "shimmer_reverb": 0.65
+      },
+      "volume_db": -5.0,
+      "pan": 0.0,
+      "muted": false
+    }
+  ],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [
+    {
+      "plugin_type": "dimension",
+      "params": {
+        "width": 1.35,
+        "hp_side_hz": 180.0
+      },
+      "mix": 1.0,
+      "enabled": true
+    },
+    {
+      "plugin_type": "distortion",
+      "params": {
+        "drive": 1.1,
+        "mode": "tape",
+        "tone": 0.85
+      },
+      "mix": 0.15,
+      "enabled": true
+    }
+  ],
+  "mastering": {
+    "target_lufs": -17.2,
+    "peak_ceiling_db": -0.8,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 3.6,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2600.0,
+      "gain_db": -3.0,
+      "q_factor": 0.85
+    },
+    "fade_in_s": null,
+    "fade_out_s": null
+  },
+  "metadata": {
+    "track_number": 1,
+    "concept": "Zero-entropy ground state of an artificial observer in cold Lydian space."
+  }
+}

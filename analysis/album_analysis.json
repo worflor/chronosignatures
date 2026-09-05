@@ -1,0 +1,1034 @@
+[
+  {
+    "title": "01 Zero Temperature Limit",
+    "filename_prefix": "01_zero_temperature_limit",
+    "key_root": "F",
+    "scale_type": "lydian",
+    "bpm": 68.0,
+    "meter": "4/4",
+    "groove_profile": "bossa_drift",
+    "seed": 101,
+    "total_bars": 24,
+    "score_fingerprint": "361fd519ac5a4fc5",
+    "render_sha256": "6b61617bf90cddc4aede67e00774fa7a9fd3e316a1f223563329c2feedfa49a3",
+    "acoustic": {
+      "integrated_lufs": -16.5,
+      "dynamic_range_db": 7.6,
+      "true_peak_dbfs": -11.38,
+      "spectral_rolloff_hz": 107.7,
+      "spectral_centroid_hz": 2329.9,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 0.888889,
+          "mean_roughness": 0.01411533,
+          "tonal_coherence": 0.954545,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.978172
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Fmaj9#11",
+        "target": "G9sus4",
+        "aitchison_distance": 0.5416231625378503,
+        "observable_before": 0.034267195645698544,
+        "observable_after": 0.06718024023879271,
+        "quadratic_prediction": 0.0898462343395112,
+        "taylor_residual": -0.022665994100718484,
+        "mozart_operator": -0.8559222884918857,
+        "multiscale_operator": [
+          -0.8559222884918857,
+          -1.022947336684724,
+          -1.0693181696875298,
+          -1.0806924842853978
+        ],
+        "multiscale_spread": 0.2247701957935121
+      },
+      {
+        "source": "G9sus4",
+        "target": "Am11",
+        "aitchison_distance": 0.5416231625378503,
+        "observable_before": 0.06718024023879271,
+        "observable_after": 0.034267195645698516,
+        "quadratic_prediction": 0.03607509971379534,
+        "taylor_residual": -0.0018079040680968259,
+        "mozart_operator": -0.06827079282131171,
+        "multiscale_operator": [
+          -0.06827079282131171,
+          -0.3450752343916775,
+          -0.48653855038404353,
+          -0.554865555261711
+        ],
+        "multiscale_spread": 0.4865947624403993
+      },
+      {
+        "source": "Am11",
+        "target": "Em9",
+        "aitchison_distance": 0.5416231625378501,
+        "observable_before": 0.034267195645698516,
+        "observable_after": 0.167054084663166,
+        "quadratic_prediction": 0.17927028699372402,
+        "taylor_residual": -0.012216202330558007,
+        "mozart_operator": -0.46131309348217286,
+        "multiscale_operator": [
+          -0.46131309348217286,
+          -0.6287361809244254,
+          -0.6786187222050459,
+          -0.6922555040286921
+        ],
+        "multiscale_spread": 0.2309424105465192
+      },
+      {
+        "source": "Em9",
+        "target": "Fmaj9#11",
+        "aitchison_distance": 0.703216759138271,
+        "observable_before": 0.167054084663166,
+        "observable_after": 0.034267195645698544,
+        "quadratic_prediction": 0.02422757741420198,
+        "taylor_residual": 0.010039618231496565,
+        "mozart_operator": 0.1732211078787818,
+        "multiscale_operator": [
+          0.1732211078787818,
+          0.24668142402015453,
+          0.28594683705678536,
+          0.30722942405901577
+        ],
+        "multiscale_spread": 0.13400831618023396
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 2.5359427122565363,
+      "level_norms": [
+        1.0,
+        0.7264647049647429,
+        0.4179050979275982
+      ],
+      "normalized_level_norms": [
+        0.3943306744142412,
+        0.11296285032873833,
+        0.025624733278231986
+      ],
+      "factorial_signature_spectrum": [
+        0.3943306744142412,
+        0.22592570065747666,
+        0.1537483996693919
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.5270208416747018,
+        0.2520306392162005
+      ],
+      "normalized_log_signature_spectrum": [
+        0.3943306744142412,
+        0.081949991584401,
+        0.015453790680907976
+      ],
+      "local_normalized_log_signature_spectrum": [
+        1.0,
+        0.16233766283371007,
+        0.024560302642643195
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.5270208416747018,
+        0.3832321660509432
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.081949991584401,
+        0.023498689265561142
+      ],
+      "levy_area_norm": 0.5270208416747018,
+      "normalized_levy_area_norm": 0.081949991584401,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Zero-entropy ground state of an artificial observer in cold Lydian space."
+  },
+  {
+    "title": "02 Circulation on the Simplex",
+    "filename_prefix": "02_circulation_on_the_simplex",
+    "key_root": "D",
+    "scale_type": "dorian",
+    "bpm": 128.0,
+    "meter": "4/4",
+    "groove_profile": "ukg_syncopate",
+    "seed": 202,
+    "total_bars": 40,
+    "score_fingerprint": "44037f18067a15c5",
+    "render_sha256": "104c1db7a0a3d0acbf383560442a3de1d572aca5eafd30bb4c1da7ebab6d185e",
+    "acoustic": {
+      "integrated_lufs": -15.0,
+      "dynamic_range_db": 8.8,
+      "true_peak_dbfs": -9.77,
+      "spectral_rolloff_hz": 2863.9,
+      "spectral_centroid_hz": 2587.7,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 1.333333,
+          "mean_roughness": 0.01809614,
+          "tonal_coherence": 0.95,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.971124
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Dm9",
+        "target": "G13",
+        "aitchison_distance": 0.7181801098142282,
+        "observable_before": 0.0671802402387926,
+        "observable_after": 0.09491368856910866,
+        "quadratic_prediction": 0.05288279751805891,
+        "taylor_residual": 0.04203089105104975,
+        "mozart_operator": 0.6808002841135453,
+        "multiscale_operator": [
+          0.6808002841135453,
+          0.5146075579043291,
+          0.424215649668455,
+          0.38265459870739
+        ],
+        "multiscale_spread": 0.2981456854061553
+      },
+      {
+        "source": "G13",
+        "target": "Cmaj9",
+        "aitchison_distance": 0.6498072423368835,
+        "observable_before": 0.09491368856910866,
+        "observable_after": 0.06718024023879264,
+        "quadratic_prediction": 0.042332371069637206,
+        "taylor_residual": 0.024847869169155434,
+        "mozart_operator": 0.5433588685411798,
+        "multiscale_operator": [
+          0.5433588685411798,
+          0.4955965784861837,
+          0.4651941767095039,
+          0.45033334381159873
+        ],
+        "multiscale_spread": 0.09302552472958103
+      },
+      {
+        "source": "Cmaj9",
+        "target": "Em7b5",
+        "aitchison_distance": 0.5416231625378501,
+        "observable_before": 0.06718024023879264,
+        "observable_after": 0.20743365003408565,
+        "quadratic_prediction": 0.21603754848113987,
+        "taylor_residual": -0.008603898447054226,
+        "mozart_operator": -0.32490383682403773,
+        "multiscale_operator": [
+          -0.32490383682403773,
+          -0.4408821191774577,
+          -0.46211544174664376,
+          -0.4607785147657291
+        ],
+        "multiscale_spread": 0.13721160492260603
+      },
+      {
+        "source": "Em7b5",
+        "target": "Dm9",
+        "aitchison_distance": 0.7032167591382708,
+        "observable_before": 0.20743365003408565,
+        "observable_after": 0.06718024023879252,
+        "quadratic_prediction": 0.04803899724580557,
+        "taylor_residual": 0.019141242992986945,
+        "mozart_operator": 0.33025830673721923,
+        "multiscale_operator": [
+          0.33025830673721923,
+          0.5019762867664869,
+          0.586180682744854,
+          0.6275658851986213
+        ],
+        "multiscale_spread": 0.2973075784614021
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 2.7995584566297786,
+      "level_norms": [
+        1.0,
+        0.8570532725787645,
+        0.5741761158892781
+      ],
+      "normalized_level_norms": [
+        0.35719918533290435,
+        0.10935250522347602,
+        0.026168359788239594
+      ],
+      "factorial_signature_spectrum": [
+        0.35719918533290435,
+        0.21870501044695204,
+        0.15701015872943758
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.6960892988963198,
+        0.38851546296455847
+      ],
+      "normalized_log_signature_spectrum": [
+        0.35719918533290435,
+        0.0888149093282531,
+        0.01770678392361338
+      ],
+      "local_normalized_log_signature_spectrum": [
+        1.0,
+        0.16842352745977573,
+        0.02526087773871066
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.6960892988963198,
+        0.5494546699045517
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.0888149093282531,
+        0.025041667689575917
+      ],
+      "levy_area_norm": 0.6960892988963197,
+      "normalized_levy_area_norm": 0.08881490932825309,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Orthogonal Hodge cycle circulation over D Dorian discrete transition currents."
+  },
+  {
+    "title": "03 Noncommutative Horizon",
+    "filename_prefix": "03_noncommutative_horizon",
+    "key_root": "G",
+    "scale_type": "natural_minor",
+    "bpm": 94.0,
+    "meter": "7/8",
+    "groove_profile": "straight",
+    "seed": 303,
+    "total_bars": 32,
+    "score_fingerprint": "f9a2d092dca917c6",
+    "render_sha256": "97a82c4423f3b784ec38ecf60ee30c006eb0a288142e49d3314bcfb5e12a5220",
+    "acoustic": {
+      "integrated_lufs": -15.4,
+      "dynamic_range_db": 7.8,
+      "true_peak_dbfs": -10.37,
+      "spectral_rolloff_hz": 107.7,
+      "spectral_centroid_hz": 2707.5,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 1.066667,
+          "mean_roughness": 0.01699665,
+          "tonal_coherence": 0.95,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.974658
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Gm9",
+        "target": "Ebmaj7#11",
+        "aitchison_distance": 0.3036403959654779,
+        "observable_before": 0.0671802402387925,
+        "observable_after": 0.034267195645698564,
+        "quadratic_prediction": 0.0185846202419195,
+        "taylor_residual": 0.015682575403779063,
+        "mozart_operator": 3.3611661986501034,
+        "multiscale_operator": [
+          3.3611661986501034,
+          2.7006555405293002,
+          2.4091022950840677,
+          2.2740452144820757
+        ],
+        "multiscale_spread": 1.0871209841680276
+      },
+      {
+        "source": "Ebmaj7#11",
+        "target": "F9sus4",
+        "aitchison_distance": 0.5416231625378504,
+        "observable_before": 0.034267195645698564,
+        "observable_after": 0.06718024023879249,
+        "quadratic_prediction": 0.08984623475773912,
+        "taylor_residual": -0.02266599451894663,
+        "mozart_operator": -0.8559223042851829,
+        "multiscale_operator": [
+          -0.8559223042851829,
+          -1.0229475533933974,
+          -1.0693193435937136,
+          -1.0806977940531537
+        ],
+        "multiscale_spread": 0.2247754897679708
+      },
+      {
+        "source": "F9sus4",
+        "target": "Dm7b5",
+        "aitchison_distance": 0.703216759138271,
+        "observable_before": 0.06718024023879249,
+        "observable_after": 0.20743365003408556,
+        "quadratic_prediction": 0.18666791874441668,
+        "taylor_residual": 0.02076573128966888,
+        "mozart_operator": 0.3582868289378498,
+        "multiscale_operator": [
+          0.3582868289378498,
+          0.5284628626317387,
+          0.610598810354012,
+          0.650209285774708
+        ],
+        "multiscale_spread": 0.29192245683685825
+      },
+      {
+        "source": "Dm7b5",
+        "target": "Gm9",
+        "aitchison_distance": 0.703216759138271,
+        "observable_before": 0.20743365003408556,
+        "observable_after": 0.06718024023879254,
+        "quadratic_prediction": 0.0480390269256748,
+        "taylor_residual": 0.019141213313117744,
+        "mozart_operator": 0.33025779464804317,
+        "multiscale_operator": [
+          0.33025779464804317,
+          0.5019745871669132,
+          0.5861745818611497,
+          0.6275428766904243
+        ],
+        "multiscale_spread": 0.29728508204238113
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 2.4825195529071014,
+      "level_norms": [
+        1.0,
+        0.7488322907906898,
+        0.4722097621890883
+      ],
+      "normalized_level_norms": [
+        0.4028165654642967,
+        0.12150641517881933,
+        0.030864335262297447
+      ],
+      "factorial_signature_spectrum": [
+        0.4028165654642967,
+        0.24301283035763865,
+        0.18518601157378467
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.5574493696568614,
+        0.3001981377312974
+      ],
+      "normalized_log_signature_spectrum": [
+        0.4028165654642967,
+        0.09045239552794651,
+        0.01962139860282247
+      ],
+      "local_normalized_log_signature_spectrum": [
+        0.9999999999999999,
+        0.16530570050731333,
+        0.029692404508332493
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.5574493696568614,
+        0.4418192862799195
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.09045239552794651,
+        0.02887796837125092
+      ],
+      "levy_area_norm": 0.5574493696568614,
+      "normalized_levy_area_norm": 0.09045239552794651,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Asymmetric 7/8 temporal metric probing non-Abelian path signature components."
+  },
+  {
+    "title": "04 The Aitchison Drift",
+    "filename_prefix": "04_the_aitchison_drift",
+    "key_root": "Bb",
+    "scale_type": "major",
+    "bpm": 76.0,
+    "meter": "4/4",
+    "groove_profile": "j_dilla_drag",
+    "seed": 404,
+    "total_bars": 28,
+    "score_fingerprint": "3a10b936690ef74f",
+    "render_sha256": "7240aeab5382963c2252abe1cd2209d7e4c5daabbb702fbee1ec3868445aa281",
+    "acoustic": {
+      "integrated_lufs": -15.5,
+      "dynamic_range_db": 7.4,
+      "true_peak_dbfs": -11.04,
+      "spectral_rolloff_hz": 1044.4,
+      "spectral_centroid_hz": 2196.0,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 1.088889,
+          "mean_roughness": 0.00995804,
+          "tonal_coherence": 1.0,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.983883
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Bbmaj9",
+        "target": "Cm9",
+        "aitchison_distance": 0.6342841005975639,
+        "observable_before": 0.0671802402387925,
+        "observable_after": 0.06718024023879263,
+        "quadratic_prediction": 0.07274752963585208,
+        "taylor_residual": -0.005567289397059458,
+        "mozart_operator": -0.13090118317083313,
+        "multiscale_operator": [
+          -0.13090118317083313,
+          -0.18826921453410458,
+          -0.20201388339509344,
+          -0.2028813223776329
+        ],
+        "multiscale_spread": 0.07198013920679977
+      },
+      {
+        "source": "Cm9",
+        "target": "Dm7",
+        "aitchison_distance": 0.7032167591382709,
+        "observable_before": 0.06718024023879256,
+        "observable_after": 0.09757242116727459,
+        "quadratic_prediction": 0.08249370824695156,
+        "taylor_residual": 0.015078712920323034,
+        "mozart_operator": 0.2601644103607618,
+        "multiscale_operator": [
+          0.2601644103607618,
+          0.37000203913179214,
+          0.4277826759925614,
+          0.45704838574297796
+        ],
+        "multiscale_spread": 0.19688397538221614
+      },
+      {
+        "source": "Dm7",
+        "target": "Ebmaj7#11",
+        "aitchison_distance": 0.6072807919309561,
+        "observable_before": 0.09757242116727453,
+        "observable_after": 0.03426719564569853,
+        "quadratic_prediction": 0.027959059221238772,
+        "taylor_residual": 0.006308136424459758,
+        "mozart_operator": 0.16899882816168685,
+        "multiscale_operator": [
+          0.16899882816168685,
+          0.052427331897607225,
+          -0.021772137114361587,
+          -0.05994271396129556
+        ],
+        "multiscale_spread": 0.2289415421229824
+      },
+      {
+        "source": "Ebmaj7#11",
+        "target": "Bbmaj9",
+        "aitchison_distance": 0.5416231625378504,
+        "observable_before": 0.034267195645698564,
+        "observable_after": 0.06718024023879236,
+        "quadratic_prediction": 0.08984623440651326,
+        "taylor_residual": -0.0226659941677209,
+        "mozart_operator": -0.8559222910220572,
+        "multiscale_operator": [
+          -0.8559222910220572,
+          -1.022947460412178,
+          -1.0693188918115453,
+          -1.0806958272076683
+        ],
+        "multiscale_spread": 0.22477353618561113
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 2.6813710487616707,
+      "level_norms": [
+        1.0,
+        0.6437055397446334,
+        0.31383154956369236
+      ],
+      "normalized_level_norms": [
+        0.3729435359055685,
+        0.08953099578860409,
+        0.01627892991539939
+      ],
+      "factorial_signature_spectrum": [
+        0.3729435359055685,
+        0.17906199157720817,
+        0.09767357949239633
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.40540944968997683,
+        0.1620222447696573
+      ],
+      "normalized_log_signature_spectrum": [
+        0.3729435359055685,
+        0.056387135874662514,
+        0.008404345487277544
+      ],
+      "local_normalized_log_signature_spectrum": [
+        1.0,
+        0.14445104264110564,
+        0.011862630571680058
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.40540944968997683,
+        0.26591815230211435
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.056387135874662514,
+        0.013793587580907237
+      ],
+      "levy_area_norm": 0.4054094496899769,
+      "normalized_levy_area_norm": 0.05638713587466252,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Mellow unquantized Aitchison simplex drift with analog tape compression and MPC swing."
+  },
+  {
+    "title": "05 Cumulant Cascade",
+    "filename_prefix": "05_cumulant_cascade",
+    "key_root": "A",
+    "scale_type": "dorian",
+    "bpm": 114.0,
+    "meter": "4/4",
+    "groove_profile": "mpc_swing_66",
+    "seed": 505,
+    "total_bars": 32,
+    "score_fingerprint": "e4a5232add6cb562",
+    "render_sha256": "6469bff5b3be3c459b4e31451508ff1b9ca8e40fa0403f90d665fb1ddd6955df",
+    "acoustic": {
+      "integrated_lufs": -15.0,
+      "dynamic_range_db": 8.1,
+      "true_peak_dbfs": -10.1,
+      "spectral_rolloff_hz": 118.4,
+      "spectral_centroid_hz": 2119.4,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 1.0,
+          "mean_roughness": 0.01302685,
+          "tonal_coherence": 0.9,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.967836
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Am9",
+        "target": "D9",
+        "aitchison_distance": 0.7226626993859674,
+        "observable_before": 0.06718024023879249,
+        "observable_after": 0.13334005070069452,
+        "quadratic_prediction": 0.14296484576626686,
+        "taylor_residual": -0.009624795065572345,
+        "mozart_operator": -0.15301564054356515,
+        "multiscale_operator": [
+          -0.15301564054356515,
+          0.10697098370807649,
+          0.2596641042533449,
+          0.33799581636460185
+        ],
+        "multiscale_spread": 0.491011456908167
+      },
+      {
+        "source": "D9",
+        "target": "Fmaj7",
+        "aitchison_distance": 0.6342841005975638,
+        "observable_before": 0.13334005070069452,
+        "observable_after": 0.233213895125068,
+        "quadratic_prediction": 0.23619927125374396,
+        "taylor_residual": -0.0029853761286759706,
+        "mozart_operator": -0.07019381238921295,
+        "multiscale_operator": [
+          -0.07019381238921295,
+          -0.09898918237287964,
+          -0.10219800582864998,
+          -0.09872146513613488
+        ],
+        "multiscale_spread": 0.03200419343943703
+      },
+      {
+        "source": "Fmaj7",
+        "target": "E7#9",
+        "aitchison_distance": 0.9038433244531682,
+        "observable_before": 0.233213895125068,
+        "observable_after": 0.1670540846631661,
+        "quadratic_prediction": 0.09504249690015809,
+        "taylor_residual": 0.072011587763008,
+        "mozart_operator": 0.5851593821550439,
+        "multiscale_operator": [
+          0.5851593821550439,
+          1.1283365282369686,
+          1.3812573982065512,
+          1.4888237065435357
+        ],
+        "multiscale_spread": 0.9036643243884918
+      },
+      {
+        "source": "E7#9",
+        "target": "Am9",
+        "aitchison_distance": 0.6342841005975639,
+        "observable_before": 0.1670540846631661,
+        "observable_after": 0.06718024023879246,
+        "quadratic_prediction": 0.0675867438143484,
+        "taylor_residual": -0.00040650357555593875,
+        "mozart_operator": -0.009557936584283198,
+        "multiscale_operator": [
+          -0.009557936584283198,
+          -0.005447988931118132,
+          0.013446814026422213,
+          0.028995955009248443
+        ],
+        "multiscale_spread": 0.03855389159353164
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 3.066013384039751,
+      "level_norms": [
+        1.0,
+        0.7470123739101402,
+        0.4709125234544867
+      ],
+      "normalized_level_norms": [
+        0.32615643663055677,
+        0.07946569811526484,
+        0.016338722669386026
+      ],
+      "factorial_signature_spectrum": [
+        0.32615643663055677,
+        0.15893139623052968,
+        0.09803233601631615
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.5550022403331927,
+        0.3051478938008595
+      ],
+      "normalized_log_signature_spectrum": [
+        0.32615643663055677,
+        0.0590400400635378,
+        0.010587373581372525
+      ],
+      "local_normalized_log_signature_spectrum": [
+        1.0,
+        0.1540300306930038,
+        0.01947307133453382
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.5550022403331927,
+        0.4404325453102832
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.0590400400635378,
+        0.015281193117583355
+      ],
+      "levy_area_norm": 0.5550022403331927,
+      "normalized_levy_area_norm": 0.0590400400635378,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Fast-paced Taylor cumulant series expansion driven by heavy MPC swing."
+  },
+  {
+    "title": "06 The Gauge-Corrected Heart",
+    "filename_prefix": "06_the_gauge_corrected_heart",
+    "key_root": "Db",
+    "scale_type": "major",
+    "bpm": 84.0,
+    "meter": "4/4",
+    "groove_profile": "ukg_syncopate",
+    "seed": 606,
+    "total_bars": 40,
+    "score_fingerprint": "a63256bb9412d2fd",
+    "render_sha256": "cffbc82a11acada26ed090694f3508a0729f8a243d784444247d8b7ad4026540",
+    "acoustic": {
+      "integrated_lufs": -14.8,
+      "dynamic_range_db": 16.5,
+      "true_peak_dbfs": -1.73,
+      "spectral_rolloff_hz": 86.1,
+      "spectral_centroid_hz": 2156.7,
+      "dissonance_index": 0.0
+    },
+    "symbolic": {
+      "model": "harmonia.symbolic-objectives.v2",
+      "aggregation": "equal arithmetic mean after intrinsic normalization",
+      "weights": {
+        "tonal_coherence": 0.16666666666666666,
+        "voice_leading_economy": 0.16666666666666666,
+        "sensory_smoothness": 0.16666666666666666,
+        "scale_coverage": 0.16666666666666666,
+        "root_entropy": 0.16666666666666666,
+        "non_repetition": 0.16666666666666666
+      },
+      "cycles": {
+        "MAIN": {
+          "chord_count": 4,
+          "mean_voice_leading_semitones": 0.611111,
+          "mean_roughness": 0.01321731,
+          "tonal_coherence": 1.0,
+          "pitch_class_coverage": 1.0,
+          "normalized_entropy": 1.0,
+          "repetition_rate": 0.0,
+          "composite_score": 0.989522
+        }
+      }
+    },
+    "mozart_probes": [
+      {
+        "source": "Dbmaj9",
+        "target": "Bbm11",
+        "aitchison_distance": 0.34630197344651786,
+        "observable_before": 0.09491368856910848,
+        "observable_after": 0.0342671956456984,
+        "quadratic_prediction": 0.02084066224987132,
+        "taylor_residual": 0.013426533395827077,
+        "mozart_operator": 1.9397700407082148,
+        "multiscale_operator": [
+          1.9397700407082148,
+          1.4308647528685055,
+          1.2073655656194617,
+          1.1045690098925964
+        ],
+        "multiscale_spread": 0.8352010308156184
+      },
+      {
+        "source": "Bbm11",
+        "target": "Gbmaj9#11",
+        "aitchison_distance": 0.4485065887313479,
+        "observable_before": 0.0342671956456984,
+        "observable_after": 0.03426719564569851,
+        "quadratic_prediction": 0.04816712339971254,
+        "taylor_residual": -0.013899927754014031,
+        "mozart_operator": -0.9243944114550139,
+        "multiscale_operator": [
+          -0.9243944114550139,
+          -1.3798358500775858,
+          -1.5947771513375972,
+          -1.6966340041361228
+        ],
+        "multiscale_spread": 0.7722395926811089
+      },
+      {
+        "source": "Gbmaj9#11",
+        "target": "Ab9sus4",
+        "aitchison_distance": 0.5416231625378504,
+        "observable_before": 0.03426719564569851,
+        "observable_after": 0.06718024023879249,
+        "quadratic_prediction": 0.08984624663295872,
+        "taylor_residual": -0.02266600639416623,
+        "mozart_operator": -0.8559227527219508,
+        "multiscale_operator": [
+          -0.8559227527219508,
+          -1.0229491010055232,
+          -1.0693250417723326,
+          -1.080719602223854
+        ],
+        "multiscale_spread": 0.22479684950190326
+      },
+      {
+        "source": "Ab9sus4",
+        "target": "Dbmaj9",
+        "aitchison_distance": 0.6498072423368836,
+        "observable_before": 0.06718024023879236,
+        "observable_after": 0.09491368856910848,
+        "quadratic_prediction": 0.12069866771990878,
+        "taylor_residual": -0.025784979150800302,
+        "mozart_operator": -0.5638510490118201,
+        "multiscale_operator": [
+          -0.5638510490118201,
+          -0.514128542175927,
+          -0.4603072747512998,
+          -0.42490669492973393
+        ],
+        "multiscale_spread": 0.13894435408208622
+      }
+    ],
+    "signature_report": {
+      "dimension": 12,
+      "order": 3,
+      "coefficient_count": 1885,
+      "path_length": 2.2333648925322995,
+      "level_norms": [
+        1.0,
+        0.7188981764214647,
+        0.40250721488655744
+      ],
+      "normalized_level_norms": [
+        0.447754866812718,
+        0.14412788448130562,
+        0.03613221739799572
+      ],
+      "factorial_signature_spectrum": [
+        0.447754866812718,
+        0.28825576896261124,
+        0.21679330438797434
+      ],
+      "log_signature_level_norms": [
+        1.0,
+        0.5165409839132877,
+        0.23903237729142138
+      ],
+      "normalized_log_signature_spectrum": [
+        0.447754866812718,
+        0.10355841995580199,
+        0.021457428592646616
+      ],
+      "local_normalized_log_signature_spectrum": [
+        1.0,
+        0.16955300791336292,
+        0.0258167583608886
+      ],
+      "local_log_signature_window_counts": [
+        4,
+        3,
+        2
+      ],
+      "straight_line_excess": [
+        0.0,
+        0.5165409839132877,
+        0.3663799670532705
+      ],
+      "normalized_straight_line_excess": [
+        0.0,
+        0.10355841995580199,
+        0.03288915112632282
+      ],
+      "levy_area_norm": 0.5165409839132877,
+      "normalized_levy_area_norm": 0.10355841995580199,
+      "representation": "time-augmented Aitchison-ILR chord path",
+      "close_cycle": true,
+      "interpretation": "Level 1 is endpoint displacement; antisymmetric level 2 is ordered area; level 3 records directional interactions not reducible to an endpoint or area alone."
+    },
+    "concept": "Gauge-corrected Hamiltonian action E\u00b0 with macroscopic golden-ratio emotional climax."
+  }
+]

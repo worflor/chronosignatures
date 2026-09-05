@@ -1,0 +1,1120 @@
+{
+  "title": "06 The Gauge-Corrected Heart",
+  "schema_version": "2.3",
+  "seed": 606,
+  "bpm": 84.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.58,
+  "groove_profile": "ukg_syncopate",
+  "key_root": "Db",
+  "scale_type": "major",
+  "drum_kit": "ukg",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Dbmaj9",
+        "bass_midi": 37,
+        "pad_notes": [
+          49,
+          53,
+          56,
+          60,
+          63,
+          68
+        ],
+        "stab_notes": [
+          56,
+          60,
+          63
+        ],
+        "bell_notes": [
+          65,
+          68,
+          72,
+          75
+        ],
+        "vocal_notes": [
+          72,
+          68
+        ]
+      },
+      {
+        "name": "Bbm11",
+        "bass_midi": 46,
+        "pad_notes": [
+          58,
+          61,
+          65,
+          68,
+          72,
+          75
+        ],
+        "stab_notes": [
+          61,
+          65,
+          68
+        ],
+        "bell_notes": [
+          68,
+          72,
+          75,
+          80
+        ],
+        "vocal_notes": [
+          75,
+          72
+        ]
+      },
+      {
+        "name": "Gbmaj9#11",
+        "bass_midi": 42,
+        "pad_notes": [
+          54,
+          58,
+          61,
+          65,
+          68,
+          72
+        ],
+        "stab_notes": [
+          58,
+          61,
+          65
+        ],
+        "bell_notes": [
+          66,
+          70,
+          73,
+          78
+        ],
+        "vocal_notes": [
+          73,
+          70
+        ]
+      },
+      {
+        "name": "Ab9sus4",
+        "bass_midi": 44,
+        "pad_notes": [
+          56,
+          61,
+          63,
+          66,
+          70
+        ],
+        "stab_notes": [
+          61,
+          63,
+          66
+        ],
+        "bell_notes": [
+          68,
+          71,
+          75,
+          78
+        ],
+        "vocal_notes": [
+          75,
+          71
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Awakening_Potential",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.65,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 750.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Emergent_Circulation",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.82,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 980.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "3a_Golden_Climax_Rise",
+      "cycle_key": "MAIN",
+      "num_bars": 4,
+      "energy": 0.99,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": true,
+      "filter_cutoff": 1400.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": {
+        "base_value": 1200.0,
+        "points": [
+          {
+            "time_pct": 0.0,
+            "value": 1000.0,
+            "easing": "smooth"
+          },
+          {
+            "time_pct": 0.618,
+            "value": 1600.0,
+            "easing": "smooth"
+          },
+          {
+            "time_pct": 1.0,
+            "value": 1100.0,
+            "easing": "smooth"
+          }
+        ]
+      },
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "3b_Golden_Ratio_Breath",
+      "cycle_key": "MAIN",
+      "num_bars": 2,
+      "energy": 0.55,
+      "has_drums": false,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 900.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "3c_Golden_Climax_Return",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.99,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": true,
+      "filter_cutoff": 1400.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": {
+        "base_value": 1200.0,
+        "points": [
+          {
+            "time_pct": 0.0,
+            "value": 1000.0,
+            "easing": "smooth"
+          },
+          {
+            "time_pct": 0.618,
+            "value": 1600.0,
+            "easing": "smooth"
+          },
+          {
+            "time_pct": 1.0,
+            "value": 1100.0,
+            "easing": "smooth"
+          }
+        ]
+      },
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "4_Thermodynamic_Cooling",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.7,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 850.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "name": "5_Infinite_Invariance",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.4,
+      "has_drums": false,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 600.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {
+    "cathedral_verb": {
+      "id": "cathedral_verb",
+      "fx_chain": [
+        {
+          "plugin_type": "reverb",
+          "params": {
+            "decay_time_s": 3.4
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "dimension",
+          "params": {
+            "width": 1.8,
+            "hp_side_hz": 200.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "volume_db": -3.5
+    }
+  },
+  "track_channels": [
+    {
+      "id": "climax_supersaw_choir",
+      "instrument_id": "supersaw",
+      "events": [
+        {
+          "start_beat": 64.0,
+          "duration_beats": 3.9,
+          "midi_note": 49,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 3.9,
+          "midi_note": 60,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0,
+          "duration_beats": 3.9,
+          "midi_note": 68,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 3.9,
+          "midi_note": 54,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.0,
+          "duration_beats": 3.9,
+          "midi_note": 66,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 3.9,
+          "midi_note": 49,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 3.9,
+          "midi_note": 60,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.0,
+          "duration_beats": 3.9,
+          "midi_note": 68,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 3.9,
+          "midi_note": 54,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.0,
+          "duration_beats": 3.9,
+          "midi_note": 66,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.0,
+          "duration_beats": 3.9,
+          "midi_note": 49,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.0,
+          "duration_beats": 3.9,
+          "midi_note": 60,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.0,
+          "duration_beats": 3.9,
+          "midi_note": 68,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 3.9,
+          "midi_note": 54,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 3.9,
+          "midi_note": 58,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 3.9,
+          "midi_note": 65,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.0,
+          "duration_beats": 3.9,
+          "midi_note": 56,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.0,
+          "duration_beats": 3.9,
+          "midi_note": 61,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.0,
+          "duration_beats": 3.9,
+          "midi_note": 63,
+          "velocity": 0.65,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.0,
+          "duration_beats": 3.9,
+          "midi_note": 66,
+          "velocity": 0.65,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 2600.0,
+            "mode": "lowpass"
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "chorus",
+          "params": {
+            "rate_hz": 0.8,
+            "depth_ms": 3.0
+          },
+          "mix": 0.45,
+          "enabled": true
+        },
+        {
+          "plugin_type": "dimension",
+          "params": {
+            "width": 1.8,
+            "hp_side_hz": 200.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "cathedral_verb": 0.4
+      },
+      "volume_db": -3.5,
+      "pan": 0.0,
+      "muted": false
+    }
+  ],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [
+    {
+      "plugin_type": "dimension",
+      "params": {
+        "width": 1.3,
+        "hp_side_hz": 180.0
+      },
+      "mix": 1.0,
+      "enabled": true
+    },
+    {
+      "plugin_type": "distortion",
+      "params": {
+        "drive": 1.15,
+        "mode": "tape",
+        "tone": 0.75
+      },
+      "mix": 0.18,
+      "enabled": true
+    },
+    {
+      "plugin_type": "transient",
+      "params": {
+        "attack_db": 0.8,
+        "sustain_db": 0.5
+      },
+      "mix": 1.0,
+      "enabled": true
+    }
+  ],
+  "mastering": {
+    "target_lufs": -14.8,
+    "peak_ceiling_db": -0.8,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 4.5,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2400.0,
+      "gain_db": -2.8,
+      "q_factor": 0.85
+    },
+    "fade_in_s": null,
+    "fade_out_s": null
+  },
+  "metadata": {
+    "track_number": 6,
+    "concept": "Gauge-corrected Hamiltonian action E\u00b0 with macroscopic golden-ratio emotional climax."
+  }
+}

@@ -1,0 +1,5 @@
+numpy>=1.24.0
+scipy>=1.10.0
+mutagen>=1.47.0
+
+# Also requires ffmpeg on PATH (used for MP3 export via libmp3lame).

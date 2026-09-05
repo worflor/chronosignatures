@@ -1,0 +1,38 @@
+[
+  {
+    "title": "07 Cumulant Cascade (Gesaffelstein Cyber-Industrial Remix)",
+    "prefix": "05_cumulant_cascade_gesaffelstein_remix",
+    "bpm": 106.0,
+    "meter": "4/4",
+    "drum_kit": "909_industrial",
+    "lufs": -14.2,
+    "dynamic_range_db": 9.2,
+    "true_peak": -7.15,
+    "spectral_centroid_hz": 1122.2,
+    "spectral_rolloff_hz": 64.6,
+    "metadata": {
+      "track_number": 7,
+      "remix_style": "Dark Cyber-Industrial / EBM Techno",
+      "ghost_collaborator": "Gesaffelstein",
+      "concept": "Obsidian acid diode basslines, heavy four-on-the-floor TR-909 kicks, driving offbeat hats, and dark concrete room reflections."
+    }
+  },
+  {
+    "title": "08 Cumulant Cascade (LE SSERAFIM Style)",
+    "prefix": "05_cumulant_cascade_lesserafim_remix",
+    "bpm": 110.0,
+    "meter": "4/4",
+    "drum_kit": "dembow_kpop",
+    "lufs": -14.0,
+    "dynamic_range_db": 7.7,
+    "true_peak": -10.15,
+    "spectral_centroid_hz": 2545.9,
+    "spectral_rolloff_hz": 129.2,
+    "metadata": {
+      "track_number": 8,
+      "remix_style": "K-Pop Dance / Afrobeat Dembow",
+      "ghost_collaborator": "LE SSERAFIM",
+      "concept": "Fearless Afro-Latin Dembow syncopation, 7-voice detuned SuperSaw brass stabs, hyper-wide Haas spatialization, and radiant pop energy."
+    }
+  }
+]

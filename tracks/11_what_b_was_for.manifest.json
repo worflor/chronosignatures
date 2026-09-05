@@ -1,0 +1,11 @@
+{
+  "channels": 2,
+  "engine": "harmonia",
+  "frames": 5229950,
+  "manifest_version": "1.0",
+  "part_a_score_fingerprint": "aadc7880bd8012f4",
+  "part_b_score_fingerprint": "c87da32621d482f3",
+  "render_sha256": "41ff67915dd919a5d21e0a5ab0aca2396a9ed40fa0921108e7c5dac0f360cc19",
+  "sample_rate": 44100,
+  "structure": "stitched composite: Part A (Score IR) -> hand-synthesized Bridge -> Part B (Score IR)"
+}

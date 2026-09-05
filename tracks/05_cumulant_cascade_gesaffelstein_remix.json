@@ -1,0 +1,1570 @@
+{
+  "title": "07 Cumulant Cascade (Gesaffelstein Cyber-Industrial Remix)",
+  "schema_version": "2.3",
+  "seed": 808,
+  "bpm": 106.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.5,
+  "groove_profile": "straight",
+  "key_root": "A",
+  "scale_type": "dorian",
+  "drum_kit": "909_industrial",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Am9",
+        "bass_midi": 33,
+        "pad_notes": [
+          45,
+          48,
+          52,
+          55,
+          59
+        ],
+        "stab_notes": [
+          57,
+          60,
+          64
+        ],
+        "bell_notes": [
+          69,
+          72,
+          76
+        ],
+        "vocal_notes": [
+          69,
+          64
+        ]
+      },
+      {
+        "name": "D9",
+        "bass_midi": 38,
+        "pad_notes": [
+          45,
+          50,
+          54,
+          57,
+          60
+        ],
+        "stab_notes": [
+          57,
+          62,
+          66
+        ],
+        "bell_notes": [
+          66,
+          69,
+          74
+        ],
+        "vocal_notes": [
+          74,
+          69
+        ]
+      },
+      {
+        "name": "Fmaj7",
+        "bass_midi": 29,
+        "pad_notes": [
+          41,
+          45,
+          48,
+          52,
+          57
+        ],
+        "stab_notes": [
+          53,
+          57,
+          60
+        ],
+        "bell_notes": [
+          65,
+          69,
+          72
+        ],
+        "vocal_notes": [
+          69,
+          65
+        ]
+      },
+      {
+        "name": "E7#9",
+        "bass_midi": 28,
+        "pad_notes": [
+          40,
+          44,
+          47,
+          50,
+          55
+        ],
+        "stab_notes": [
+          52,
+          56,
+          59,
+          64
+        ],
+        "bell_notes": [
+          64,
+          68,
+          71
+        ],
+        "vocal_notes": [
+          71,
+          64
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Monolith_Awakening",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.55,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 480.0,
+      "groove_profile": "straight",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Cyber_Industrial_Assault",
+      "cycle_key": "MAIN",
+      "num_bars": 12,
+      "energy": 0.92,
+      "has_drums": true,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 650.0,
+      "groove_profile": "straight",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "3_Hypnotic_Void",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.48,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 420.0,
+      "groove_profile": "straight",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "4_Climactic_Overdrive",
+      "cycle_key": "MAIN",
+      "num_bars": 12,
+      "energy": 0.98,
+      "has_drums": true,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 720.0,
+      "groove_profile": "straight",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "5_Brutal_Outro",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.4,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 400.0,
+      "groove_profile": "straight",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {
+    "industrial_room": {
+      "id": "industrial_room",
+      "fx_chain": [
+        {
+          "plugin_type": "gated_reverb",
+          "params": {
+            "threshold_db": -26.0,
+            "hold_ms": 75.0,
+            "release_ms": 20.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 2400.0,
+            "mode": "lowpass"
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "volume_db": -6.0
+    }
+  },
+  "track_channels": [
+    {
+      "id": "acid_diode_bass",
+      "instrument_id": "acid_bass",
+      "events": [
+        {
+          "start_beat": 32.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 33.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 34.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 35.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 37.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 38.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 39.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 39.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 41.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 42.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 43.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 45.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 46.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 47.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 47.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 49.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 50.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 51.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 53.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 54.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 55.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 55.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 57.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 58.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 59.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 61.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 62.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 63.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 63.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 65.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 66.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 67.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 69.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 70.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 71.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 71.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 73.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 74.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 75.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 77.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 78.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 79.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 79.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 105.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 106.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 107.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 109.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 110.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 111.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 111.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 112.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 113.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 114.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 115.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 116.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 117.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 118.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 119.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 119.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 120.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 121.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 122.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 123.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 124.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 125.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 126.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 127.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 127.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 128.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 129.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 130.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 131.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 132.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 133.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 134.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 135.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 135.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 136.0,
+          "duration_beats": 0.35,
+          "midi_note": 29,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 137.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 138.5,
+          "duration_beats": 0.25,
+          "midi_note": 29,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 139.5,
+          "duration_beats": 0.35,
+          "midi_note": 41,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 140.0,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 141.5,
+          "duration_beats": 0.25,
+          "midi_note": 28,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 142.25,
+          "duration_beats": 0.25,
+          "midi_note": 34,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 143.0,
+          "duration_beats": 0.3,
+          "midi_note": 40,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 143.5,
+          "duration_beats": 0.35,
+          "midi_note": 28,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 144.0,
+          "duration_beats": 0.35,
+          "midi_note": 33,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 145.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 146.5,
+          "duration_beats": 0.25,
+          "midi_note": 33,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 147.5,
+          "duration_beats": 0.35,
+          "midi_note": 45,
+          "velocity": 0.92,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 148.0,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.95,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 149.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 150.5,
+          "duration_beats": 0.25,
+          "midi_note": 38,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 151.25,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 151.75,
+          "duration_beats": 0.22,
+          "midi_note": 38,
+          "velocity": 0.9,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 420.0,
+            "resonance": 2.2,
+            "mode": "lowpass",
+            "envelope_mod": 0.45
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "distortion",
+          "params": {
+            "drive": 2.4,
+            "mode": "diode",
+            "tone": 0.42
+          },
+          "mix": 0.7,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "industrial_room": 0.18
+      },
+      "volume_db": 0.0,
+      "pan": 0.0,
+      "muted": false
+    },
+    {
+      "id": "vocal_cyborg_glitch",
+      "instrument_id": "vocaloid",
+      "events": [
+        {
+          "start_beat": 80.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 81.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 83.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 89.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 91.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 97.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 99.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 120.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 121.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 123.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 128.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 129.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 131.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 136.5,
+          "duration_beats": 0.6,
+          "midi_note": 69,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 137.75,
+          "duration_beats": 0.4,
+          "midi_note": 64,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 139.0,
+          "duration_beats": 0.7,
+          "midi_note": 71,
+          "velocity": 0.88,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "distortion",
+          "params": {
+            "drive": 1.8,
+            "mode": "tape",
+            "tone": 0.5
+          },
+          "mix": 0.35,
+          "enabled": true
+        },
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 2600.0,
+            "mode": "lowpass"
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "chorus",
+          "params": {
+            "rate_hz": 0.6,
+            "depth_ms": 2.5
+          },
+          "mix": 0.35,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "industrial_room": 0.45
+      },
+      "volume_db": -3.5,
+      "pan": -0.15,
+      "muted": false
+    },
+    {
+      "id": "industrial_transitions",
+      "instrument_id": "transitions",
+      "events": [
+        {
+          "start_beat": 0.0,
+          "duration_beats": 2.0,
+          "midi_note": 30,
+          "velocity": 0.88,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.0,
+          "duration_beats": 8.0,
+          "midi_note": 60,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.0,
+          "duration_beats": 3.0,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0,
+          "duration_beats": 8.0,
+          "midi_note": 60,
+          "velocity": 0.9,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.0,
+          "duration_beats": 2.0,
+          "midi_note": 30,
+          "velocity": 0.95,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "distortion",
+          "params": {
+            "drive": 1.4,
+            "mode": "tape",
+            "tone": 0.55
+          },
+          "mix": 0.2,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "industrial_room": 0.25
+      },
+      "volume_db": -2.0,
+      "pan": 0.0,
+      "muted": false
+    }
+  ],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [
+    {
+      "plugin_type": "distortion",
+      "params": {
+        "drive": 1.18,
+        "mode": "tape",
+        "tone": 0.7
+      },
+      "mix": 0.18,
+      "enabled": true
+    },
+    {
+      "plugin_type": "transient",
+      "params": {
+        "attack_db": 0.6,
+        "sustain_db": -0.4
+      },
+      "mix": 1.0,
+      "enabled": true
+    }
+  ],
+  "mastering": {
+    "target_lufs": -14.2,
+    "peak_ceiling_db": -0.8,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 4.2,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2400.0,
+      "gain_db": -2.8,
+      "q_factor": 0.85
+    },
+    "fade_in_s": null,
+    "fade_out_s": null
+  },
+  "metadata": {
+    "track_number": 7,
+    "remix_style": "Dark Cyber-Industrial / EBM Techno",
+    "ghost_collaborator": "Gesaffelstein",
+    "concept": "Obsidian acid diode basslines, heavy four-on-the-floor TR-909 kicks, driving offbeat hats, and dark concrete room reflections."
+  }
+}

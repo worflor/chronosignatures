@@ -1,0 +1,1346 @@
+{
+  "title": "04 The Aitchison Drift",
+  "schema_version": "2.3",
+  "seed": 404,
+  "bpm": 76.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.62,
+  "groove_profile": "j_dilla_drag",
+  "key_root": "Bb",
+  "scale_type": "major",
+  "drum_kit": "808_trap",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Bbmaj9",
+        "bass_midi": 46,
+        "pad_notes": [
+          58,
+          62,
+          65,
+          69,
+          72
+        ],
+        "stab_notes": [
+          62,
+          65,
+          69,
+          72
+        ],
+        "bell_notes": [
+          70,
+          74,
+          77,
+          81
+        ],
+        "vocal_notes": [
+          77,
+          74
+        ]
+      },
+      {
+        "name": "Cm9",
+        "bass_midi": 48,
+        "pad_notes": [
+          60,
+          63,
+          67,
+          70,
+          74
+        ],
+        "stab_notes": [
+          63,
+          67,
+          70,
+          74
+        ],
+        "bell_notes": [
+          72,
+          75,
+          79,
+          82
+        ],
+        "vocal_notes": [
+          79,
+          75
+        ]
+      },
+      {
+        "name": "Dm7",
+        "bass_midi": 50,
+        "pad_notes": [
+          62,
+          65,
+          69,
+          72
+        ],
+        "stab_notes": [
+          65,
+          69,
+          72,
+          76
+        ],
+        "bell_notes": [
+          74,
+          77,
+          81,
+          84
+        ],
+        "vocal_notes": [
+          81,
+          77
+        ]
+      },
+      {
+        "name": "Ebmaj7#11",
+        "bass_midi": 51,
+        "pad_notes": [
+          63,
+          67,
+          70,
+          74,
+          77,
+          81
+        ],
+        "stab_notes": [
+          67,
+          70,
+          74,
+          77
+        ],
+        "bell_notes": [
+          75,
+          79,
+          82,
+          86
+        ],
+        "vocal_notes": [
+          82,
+          79
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Simplicial_Warmth",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.68,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 750.0,
+      "groove_profile": "j_dilla_drag",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Unquantized_Flow",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.84,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 950.0,
+      "groove_profile": "j_dilla_drag",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "3_Aitchison_Subspace",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.9,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": true,
+      "filter_cutoff": 1100.0,
+      "groove_profile": "j_dilla_drag",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "4_Tape_Fadeout",
+      "cycle_key": "MAIN",
+      "num_bars": 6,
+      "energy": 0.55,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": false,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 650.0,
+      "groove_profile": "j_dilla_drag",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {
+    "warm_plate": {
+      "id": "warm_plate",
+      "fx_chain": [
+        {
+          "plugin_type": "reverb",
+          "params": {
+            "decay_time_s": 2.2
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 3400.0,
+            "mode": "lowpass"
+          },
+          "mix": 1.0,
+          "enabled": true
+        }
+      ],
+      "volume_db": -4.0
+    }
+  },
+  "track_channels": [
+    {
+      "id": "humanized_rhodes",
+      "instrument_id": "fm_keys",
+      "events": [
+        {
+          "start_beat": 0.01881742624089618,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6540479631009721,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 0.03012185185725302,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6780231833006043,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 0.042783329955724564,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.6372081225031869,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 0.0481089620969277,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6588060238051257,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 4.017619285732622,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.5786241352949534,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 4.029075669228997,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7563032750536687,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 4.04857318490388,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6831595433883663,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 4.047812800224267,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.6509895707365282,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 8.01946379162889,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.5922441041254833,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 8.03093881083628,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.6469201556410255,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 8.041928022190048,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.7297193242793304,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 8.054191701316453,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.6194115089722381,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 12.019018675752553,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7763841047828208,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 12.034480192368527,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.5590545115604326,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 12.041428968733134,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.7753384241262814,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 12.06102361307525,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.5980330853265203,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.0224395837678,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6971435311115859,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.027403041694598,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.551974265190621,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.042433630062657,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7221515092286934,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.05506157483205,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6914966152505992,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.018159561608428,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.6976385849384843,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.02841895193527,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.6310386420284867,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.046651505110006,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6475645308580851,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.058214993792003,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.57880613067137,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 24.021639420683986,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.5554823157558404,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 24.0292816307285,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.609425560415755,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 24.046098158330373,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.7109003352189381,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 24.05020428483273,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.5653549848576678,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 28.017961224865967,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.5699698643514981,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 28.032289134236276,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.7049497323260776,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 28.049718580149506,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.7586978393675063,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 28.05556912095211,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.7208759113038641,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.02252475008399,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6188139013847945,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.03193392553034,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.7566361126258181,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.03786918044011,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7108073672283308,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.061200339195246,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6879659306596326,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.02280765357173,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.7082582700989628,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.035730458155875,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.6820667847227695,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.049389178084475,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6796786159384957,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.060596606982934,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.5861689979824175,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.020764699256326,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6187750022205857,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.02817525220814,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.777116667652601,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.04255221893656,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.55910888930766,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.04767114976137,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.7158396273940444,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.01841181312767,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7185176667264153,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.02841559516546,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.7534999824881543,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.04475143408659,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.5793472681524999,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.05769716261004,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.5618901915949698,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.01826141465,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6988786095456581,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.03313497961271,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6764208004292965,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.039331192711465,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7035460629147319,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.051648608775736,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6783078034837006,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.02157649988063,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.6439565243058574,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.034518525177575,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.661910922124424,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.041945117760775,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6866407968249495,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.05742240648713,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.5653951419587373,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.02071078249797,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6965249531835138,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.028478278434626,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.5856318521428996,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.04327381855093,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.7663174921504385,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.05601528044982,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.691486223081527,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.01911568618112,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7571682338572462,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.03195495508036,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.726261793396134,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.0456759419971,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.6887736447252037,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.051482850372814,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.5725587339428808,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.02182903863138,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6366332842458396,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.03430206428956,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.5741546645751012,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.03834129628716,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7476240009315913,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.05313923271719,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6214645469766975,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.01973336265846,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.6826094586445334,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.03488797591972,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.630248785960461,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.0475478142391,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6279617636187296,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.05607704464686,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.7113889726787421,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.01944566859113,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.7609564382336761,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.03587987714914,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7276964695114914,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.04057515170153,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.6229885392561018,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.06179711740668,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.6856463940470607,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.02249700151725,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7392759238465358,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.02813771062738,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6242086805685705,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.04199948617125,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.5874603404793868,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.05200209821345,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.5513425269616296,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.0215475345184,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.6764449599232589,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.03423967589796,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6764889385324941,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.04106353414339,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.6150689333935437,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.053595961846,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.7521786396492705,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.01995287873204,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.5810027960074947,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.03036657403321,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7574894083629176,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.04334023410097,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.7735470898957859,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.05628728275846,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.769269545265968,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.02246492181818,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.5799973324375696,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.0350672105751,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.550587419779684,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.04399677387447,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.5569949273625469,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.05347227078784,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.7097312517597427,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.02106595089417,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7139972493282524,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.03225248865745,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.6922175154517667,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.03826526115604,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.7006395021376788,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.04977487236297,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.7422132698020658,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.01918285264553,
+          "duration_beats": 1.6,
+          "midi_note": 62,
+          "velocity": 0.7710348577436579,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.030308981635,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.6398375962607132,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.03768493623109,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.6195066650469897,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.06064248063076,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.717404282387064,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.02018976876171,
+          "duration_beats": 1.6,
+          "midi_note": 63,
+          "velocity": 0.7383883454005581,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.03060463430013,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.586583705642295,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.04592475621781,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.7581012381479645,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.04917066341044,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.6297994874848282,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.01741582483962,
+          "duration_beats": 1.6,
+          "midi_note": 65,
+          "velocity": 0.7721441952189052,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.02902903313314,
+          "duration_beats": 1.6,
+          "midi_note": 69,
+          "velocity": 0.7125073395841958,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.05023187879492,
+          "duration_beats": 1.6,
+          "midi_note": 72,
+          "velocity": 0.5671018423121755,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.05786001594396,
+          "duration_beats": 1.6,
+          "midi_note": 76,
+          "velocity": 0.730847745961256,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.01899453422588,
+          "duration_beats": 1.6,
+          "midi_note": 67,
+          "velocity": 0.7443915542872588,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.03406787728008,
+          "duration_beats": 1.6,
+          "midi_note": 70,
+          "velocity": 0.7497183984825079,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.04617922966187,
+          "duration_beats": 1.6,
+          "midi_note": 74,
+          "velocity": 0.6381906300937538,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.05943712570345,
+          "duration_beats": 1.6,
+          "midi_note": 77,
+          "velocity": 0.6027949865479193,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "chorus",
+          "params": {
+            "rate_hz": 0.5,
+            "depth_ms": 2.0
+          },
+          "mix": 0.25,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "warm_plate": 0.3
+      },
+      "volume_db": -3.0,
+      "pan": 0.0,
+      "muted": false
+    }
+  ],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [
+    {
+      "plugin_type": "distortion",
+      "params": {
+        "drive": 1.35,
+        "mode": "tape",
+        "tone": 0.65
+      },
+      "mix": 0.28,
+      "enabled": true
+    },
+    {
+      "plugin_type": "transient",
+      "params": {
+        "attack_db": -0.5,
+        "sustain_db": 0.8
+      },
+      "mix": 1.0,
+      "enabled": true
+    }
+  ],
+  "mastering": {
+    "target_lufs": -15.8,
+    "peak_ceiling_db": -0.8,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 3.8,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2400.0,
+      "gain_db": -2.8,
+      "q_factor": 0.85
+    },
+    "fade_in_s": null,
+    "fade_out_s": null
+  },
+  "metadata": {
+    "track_number": 4,
+    "concept": "Mellow unquantized Aitchison simplex drift with analog tape compression and MPC swing."
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "chords": [
+    {
+      "label": "Fmaj9#11 (Lydian Tonic)",
+      "query": "chord 0 4 7 11 2 6",
+      "findings": {
+        "canonical form": "0 1 3 5 7 8",
+        "interval vector": "2 3 2 3 4 1",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 2 5 7 9"
+      }
+    },
+    {
+      "label": "G9sus4 (Acoustic Fifth)",
+      "query": "chord 0 5 7 10 2",
+      "findings": {
+        "canonical form": "0 2 4 7 9",
+        "interval vector": "0 3 2 1 4 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 5 6 8 10"
+      }
+    },
+    {
+      "label": "Am11 (Modal Minor)",
+      "query": "chord 0 3 7 10 2 5",
+      "findings": {
+        "canonical form": "0 1 3 5 8 10",
+        "interval vector": "1 4 3 2 5 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 5 8 10"
+      }
+    },
+    {
+      "label": "Em9 (Dark Leading)",
+      "query": "chord 0 3 7 11 2",
+      "findings": {
+        "canonical form": "0 1 3 4 8",
+        "interval vector": "2 1 2 3 2 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 2 4 5 6 9"
+      }
+    },
+    {
+      "label": "Dm9 (Dorian Center)",
+      "query": "chord 0 3 7 10 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "G13 (Dominant Extension)",
+      "query": "chord 0 4 7 10 2 9",
+      "findings": {
+        "canonical form": "0 1 3 5 7 10",
+        "interval vector": "1 4 3 2 4 1",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 3 5 7 10"
+      }
+    },
+    {
+      "label": "Cmaj9 (Subtonic Resolution)",
+      "query": "chord 0 4 7 11 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "Em7b5 (Half-Diminished)",
+      "query": "chord 0 3 6 10",
+      "findings": {
+        "canonical form": "0 2 5 8",
+        "interval vector": "0 1 2 1 1 1",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 8 10"
+      }
+    },
+    {
+      "label": "Gm9 (Aeolian Tonic)",
+      "query": "chord 0 3 7 10 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "Ebmaj7#11 (Lydian VI)",
+      "query": "chord 0 4 7 11 6",
+      "findings": {
+        "canonical form": "0 1 3 7 8",
+        "interval vector": "2 1 1 2 3 1",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 7 8 9"
+      }
+    },
+    {
+      "label": "F9sus4 (Subtonic)",
+      "query": "chord 0 5 7 10 2",
+      "findings": {
+        "canonical form": "0 2 4 7 9",
+        "interval vector": "0 3 2 1 4 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 5 6 8 10"
+      }
+    },
+    {
+      "label": "Dm7b5 (Supertonic)",
+      "query": "chord 0 3 6 10",
+      "findings": {
+        "canonical form": "0 2 5 8",
+        "interval vector": "0 1 2 1 1 1",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 8 10"
+      }
+    },
+    {
+      "label": "Bbmaj9 (Soul Center)",
+      "query": "chord 0 4 7 11 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "Cm9 (Dorian ii)",
+      "query": "chord 0 3 7 10 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "Dm7 (Phrygian iii)",
+      "query": "chord 0 3 7 10",
+      "findings": {
+        "canonical form": "0 2 5 9",
+        "interval vector": "0 1 2 1 2 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 2 4 5 7 9 10"
+      }
+    },
+    {
+      "label": "Am9 (Neo-Bop i)",
+      "query": "chord 0 3 7 10 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "D9 (Dorian IV)",
+      "query": "chord 0 4 7 10 2",
+      "findings": {
+        "canonical form": "0 2 4 6 9",
+        "interval vector": "0 3 2 2 2 1",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 4 6 8 10"
+      }
+    },
+    {
+      "label": "E7#9 (Hendrix / Altered V)",
+      "query": "chord 0 4 7 10 3",
+      "findings": {
+        "canonical form": "0 1 4 6 9",
+        "interval vector": "1 1 3 2 2 1",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 3 4 6 8 9"
+      }
+    },
+    {
+      "label": "Dbmaj9 (Golden Tonic)",
+      "query": "chord 0 4 7 11 2",
+      "findings": {
+        "canonical form": "0 1 3 5 8",
+        "interval vector": "1 2 2 2 3 0",
+        "symmetry": "1 of 24",
+        "the complement": "0 1 2 4 5 7 9"
+      }
+    },
+    {
+      "label": "Bbm11 (Relative Minor vi)",
+      "query": "chord 0 3 7 10 2 5",
+      "findings": {
+        "canonical form": "0 1 3 5 8 10",
+        "interval vector": "1 4 3 2 5 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 5 8 10"
+      }
+    },
+    {
+      "label": "Gbmaj9#11 (Subdominant IV)",
+      "query": "chord 0 4 7 11 2 6",
+      "findings": {
+        "canonical form": "0 1 3 5 7 8",
+        "interval vector": "2 3 2 3 4 1",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 2 5 7 9"
+      }
+    },
+    {
+      "label": "Ab9sus4 (Suspended Dominant V)",
+      "query": "chord 0 5 7 10 2",
+      "findings": {
+        "canonical form": "0 2 4 7 9",
+        "interval vector": "0 3 2 1 4 0",
+        "symmetry": "2 of 24",
+        "the complement": "0 1 3 5 6 8 10"
+      }
+    }
+  ],
+  "rhythms": [
+    {
+      "label": "4/4 Tresillo / Bossa Drift (Track 1)",
+      "query": "rhythm 3:8",
+      "findings": {
+        "the pattern": "10010010",
+        "canonical necklace": "00100101",
+        "period": "8",
+        "maximally even": "yes"
+      }
+    },
+    {
+      "label": "4/4 UKG Syncopated Kick (Track 2)",
+      "query": "rhythm 3:16",
+      "findings": {
+        "the pattern": "1000001000010000",
+        "canonical necklace": "0000010000100001",
+        "period": "16",
+        "maximally even": "yes"
+      }
+    },
+    {
+      "label": "7/8 Asymmetric Horizon Pulse (Track 3)",
+      "query": "rhythm 3:7",
+      "findings": {
+        "the pattern": "1001010",
+        "canonical necklace": "0010101",
+        "period": "7",
+        "maximally even": "yes"
+      }
+    },
+    {
+      "label": "4/4 Straight Pulse",
+      "query": "rhythm 4:16",
+      "findings": {
+        "the pattern": "1000100010001000",
+        "canonical necklace": "0001000100010001",
+        "period": "4",
+        "maximally even": "yes"
+      }
+    },
+    {
+      "label": "Golden Ratio Pulse 5:8",
+      "query": "rhythm 5:8",
+      "findings": {
+        "the pattern": "10101101",
+        "canonical necklace": "01011011",
+        "period": "8",
+        "maximally even": "yes"
+      }
+    }
+  ]
+}

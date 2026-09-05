@@ -1,0 +1,437 @@
+{
+  "title": "10 The Sound Before Language",
+  "schema_version": "2.3",
+  "seed": 101010,
+  "bpm": 54.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.5,
+  "groove_profile": "bossa_drift",
+  "key_root": "E",
+  "scale_type": "phrygian",
+  "drum_kit": "default",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Em7(b9 color)",
+        "bass_midi": 40,
+        "pad_notes": [
+          52,
+          55,
+          59,
+          62
+        ],
+        "stab_notes": [
+          52,
+          55,
+          59,
+          62
+        ],
+        "bell_notes": [
+          59,
+          62,
+          65,
+          71
+        ],
+        "vocal_notes": [
+          64,
+          59
+        ]
+      },
+      {
+        "name": "Fmaj7",
+        "bass_midi": 41,
+        "pad_notes": [
+          53,
+          57,
+          60,
+          64
+        ],
+        "stab_notes": [
+          53,
+          57,
+          60,
+          64
+        ],
+        "bell_notes": [
+          60,
+          64,
+          65,
+          69
+        ],
+        "vocal_notes": [
+          65,
+          60
+        ]
+      },
+      {
+        "name": "Am7",
+        "bass_midi": 45,
+        "pad_notes": [
+          57,
+          60,
+          64,
+          67
+        ],
+        "stab_notes": [
+          57,
+          60,
+          64,
+          67
+        ],
+        "bell_notes": [
+          64,
+          67,
+          69,
+          72
+        ],
+        "vocal_notes": [
+          69,
+          64
+        ]
+      },
+      {
+        "name": "Bm7b5",
+        "bass_midi": 47,
+        "pad_notes": [
+          59,
+          62,
+          65,
+          69
+        ],
+        "stab_notes": [
+          59,
+          62,
+          65,
+          69
+        ],
+        "bell_notes": [
+          65,
+          69,
+          71,
+          74
+        ],
+        "vocal_notes": [
+          71,
+          65
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Intake_Breath",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.32,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": false,
+      "has_vocaloid": false,
+      "filter_cutoff": 650.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Reaching",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.5,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 800.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "3_The_Held_Breath",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.68,
+      "has_drums": true,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 950.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "4_Unfinished",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.34,
+      "has_drums": false,
+      "has_bass": true,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 600.0,
+      "groove_profile": "bossa_drift",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {},
+  "track_channels": [],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [],
+  "mastering": {
+    "target_lufs": -19.0,
+    "peak_ceiling_db": -1.0,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 3.6,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2400.0,
+      "gain_db": -3.2,
+      "q_factor": 0.85
+    },
+    "fade_in_s": 2.0,
+    "fade_out_s": 6.0
+  },
+  "metadata": {
+    "track_number": 10,
+    "bonus_track": true,
+    "keys_synth": "rhodes",
+    "concept": "A wordless torch-song lament. The lead voice is FormantVocaloidSynth pushed into a role it was never built for -- a full sung phrase rather than an accent -- and it can only ache through vowels, because that is genuinely all it can do: no consonants, no words, just formant resonance. It ends on the Phrygian flat-2, unresolved, mid-sentence."
+  }
+}

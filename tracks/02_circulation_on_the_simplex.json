@@ -1,0 +1,1691 @@
+{
+  "title": "02 Circulation on the Simplex",
+  "schema_version": "2.3",
+  "seed": 202,
+  "bpm": 128.0,
+  "meter_numerator": 4,
+  "meter_denominator": 4,
+  "sample_rate": 44100,
+  "swing_ratio": 0.59,
+  "groove_profile": "ukg_syncopate",
+  "key_root": "D",
+  "scale_type": "dorian",
+  "drum_kit": "ukg",
+  "chords": {
+    "MAIN": [
+      {
+        "name": "Dm9",
+        "bass_midi": 38,
+        "pad_notes": [
+          50,
+          53,
+          57,
+          60,
+          64
+        ],
+        "stab_notes": [
+          57,
+          60,
+          64
+        ],
+        "bell_notes": [
+          65,
+          69,
+          72,
+          76
+        ],
+        "vocal_notes": [
+          72,
+          69
+        ]
+      },
+      {
+        "name": "G13",
+        "bass_midi": 43,
+        "pad_notes": [
+          55,
+          59,
+          62,
+          65,
+          69,
+          71
+        ],
+        "stab_notes": [
+          59,
+          64,
+          69
+        ],
+        "bell_notes": [
+          67,
+          71,
+          74,
+          77
+        ],
+        "vocal_notes": [
+          74,
+          71
+        ]
+      },
+      {
+        "name": "Cmaj9",
+        "bass_midi": 36,
+        "pad_notes": [
+          48,
+          52,
+          55,
+          59,
+          62
+        ],
+        "stab_notes": [
+          55,
+          59,
+          62
+        ],
+        "bell_notes": [
+          64,
+          67,
+          71,
+          74
+        ],
+        "vocal_notes": [
+          71,
+          67
+        ]
+      },
+      {
+        "name": "Em7b5",
+        "bass_midi": 40,
+        "pad_notes": [
+          52,
+          55,
+          58,
+          62
+        ],
+        "stab_notes": [
+          55,
+          58,
+          62
+        ],
+        "bell_notes": [
+          62,
+          65,
+          70,
+          74
+        ],
+        "vocal_notes": [
+          70,
+          65
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "name": "1_Current_Initialization",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.7,
+      "has_drums": false,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 800.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    },
+    {
+      "name": "2_Cyclic_Decomposition",
+      "cycle_key": "MAIN",
+      "num_bars": 12,
+      "energy": 0.92,
+      "has_drums": true,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 1100.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "3_Hodge_Singularity",
+      "cycle_key": "MAIN",
+      "num_bars": 12,
+      "energy": 0.98,
+      "has_drums": true,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": true,
+      "filter_cutoff": 1350.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {
+        "kick": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "snare": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hat": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "name": "4_Boundary_Transport",
+      "cycle_key": "MAIN",
+      "num_bars": 8,
+      "energy": 0.6,
+      "has_drums": false,
+      "has_bass": false,
+      "has_pad": true,
+      "has_stabs": true,
+      "has_bells": true,
+      "has_vocaloid": false,
+      "filter_cutoff": 700.0,
+      "groove_profile": "ukg_syncopate",
+      "filter_curve": null,
+      "rhythm_patterns": {}
+    }
+  ],
+  "instruments": {},
+  "sequences": {},
+  "send_busses": {
+    "dub_space": {
+      "id": "dub_space",
+      "fx_chain": [
+        {
+          "plugin_type": "delay",
+          "params": {
+            "delay_time_s": 0.352,
+            "feedback": 0.32,
+            "damp_hz": 4000.0
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "reverb",
+          "params": {
+            "decay_time_s": 1.8
+          },
+          "mix": 0.5,
+          "enabled": true
+        }
+      ],
+      "volume_db": -4.5
+    }
+  },
+  "track_channels": [
+    {
+      "id": "ukg_syncopated_bass",
+      "instrument_id": "acid_bass",
+      "events": [
+        {
+          "start_beat": 0.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 1.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 2.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 3.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 4.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 5.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 6.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 7.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 8.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 9.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 10.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 11.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 12.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 13.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 14.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 15.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 16.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 17.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 18.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 19.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 20.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 21.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 22.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 23.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 24.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 25.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 26.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 27.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 28.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 29.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 30.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 31.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 32.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 33.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 34.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 35.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 36.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 37.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 38.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 39.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 40.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 41.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 42.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 43.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 44.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 45.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 46.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 47.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 48.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 49.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 50.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 51.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 52.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 53.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 54.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 55.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 56.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 57.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 58.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 59.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 60.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 61.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 62.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 63.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 64.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 65.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 66.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 67.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 68.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 69.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 70.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 71.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 72.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 73.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 74.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 75.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 76.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 77.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 78.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 79.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 80.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 81.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 82.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 83.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 84.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 85.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 86.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 87.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 88.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 89.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 90.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 91.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 92.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 93.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 94.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 95.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 96.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 97.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 98.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 99.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 100.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 101.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 102.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 103.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 104.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 105.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 106.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 107.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 108.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 109.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 110.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 111.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 112.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 113.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 114.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 115.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 116.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 117.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 118.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 119.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 120.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 121.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 122.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 123.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 124.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 125.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 126.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 127.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 128.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 129.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 130.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 131.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 132.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 133.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 134.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 135.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 136.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 137.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 138.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 139.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 140.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 141.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 142.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 143.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 144.75,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 145.5,
+          "duration_beats": 0.25,
+          "midi_note": 50,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 146.25,
+          "duration_beats": 0.35,
+          "midi_note": 38,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 147.5,
+          "duration_beats": 0.4,
+          "midi_note": 45,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 148.75,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 149.5,
+          "duration_beats": 0.25,
+          "midi_note": 55,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 150.25,
+          "duration_beats": 0.35,
+          "midi_note": 43,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 151.5,
+          "duration_beats": 0.4,
+          "midi_note": 50,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 152.75,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 153.5,
+          "duration_beats": 0.25,
+          "midi_note": 48,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 154.25,
+          "duration_beats": 0.35,
+          "midi_note": 36,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 155.5,
+          "duration_beats": 0.4,
+          "midi_note": 43,
+          "velocity": 0.8,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 156.75,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.85,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 157.5,
+          "duration_beats": 0.25,
+          "midi_note": 52,
+          "velocity": 0.75,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 158.25,
+          "duration_beats": 0.35,
+          "midi_note": 40,
+          "velocity": 0.82,
+          "pan": 0.0
+        },
+        {
+          "start_beat": 159.5,
+          "duration_beats": 0.4,
+          "midi_note": 47,
+          "velocity": 0.8,
+          "pan": 0.0
+        }
+      ],
+      "fx_chain": [
+        {
+          "plugin_type": "filter",
+          "params": {
+            "cutoff_hz": 900.0,
+            "resonance": 1.8,
+            "mode": "lowpass",
+            "envelope_mod": 0.5
+          },
+          "mix": 1.0,
+          "enabled": true
+        },
+        {
+          "plugin_type": "distortion",
+          "params": {
+            "drive": 1.4,
+            "mode": "diode",
+            "tone": 0.6
+          },
+          "mix": 0.4,
+          "enabled": true
+        }
+      ],
+      "sends": {
+        "dub_space": 0.2
+      },
+      "volume_db": 0.0,
+      "pan": 0.0,
+      "muted": false
+    }
+  ],
+  "mixer": {
+    "channels": {
+      "pads": {
+        "id": "pads",
+        "instrument_id": "",
+        "volume_db": -2.8533500713746314,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 2.8,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {
+          "reverb": 0.25
+        }
+      },
+      "keys_stabs": {
+        "id": "keys_stabs",
+        "instrument_id": "",
+        "volume_db": -3.349821745875273,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bass": {
+        "id": "bass",
+        "instrument_id": "",
+        "volume_db": -0.35457533920863205,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": {
+          "source_channel": "drums",
+          "depth_db": 3.6,
+          "attack_ms": 10.0,
+          "release_ms": 120.0
+        },
+        "fx_chain": [],
+        "sends": {}
+      },
+      "bells_plucks": {
+        "id": "bells_plucks",
+        "instrument_id": "",
+        "volume_db": -5.352124803540629,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.75,
+              "feedback": 0.48,
+              "damp_hz": 4200.0
+            },
+            "mix": 0.38,
+            "enabled": true
+          }
+        ],
+        "sends": {}
+      },
+      "vocaloid": {
+        "id": "vocaloid",
+        "instrument_id": "",
+        "volume_db": -6.375175252488256,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": true,
+        "sidechain": null,
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "sync_beats": 0.5,
+              "feedback": 0.35,
+              "damp_hz": 3500.0
+            },
+            "mix": 0.28,
+            "enabled": true
+          }
+        ],
+        "sends": {
+          "reverb": 0.22
+        }
+      },
+      "drums": {
+        "id": "drums",
+        "instrument_id": "",
+        "volume_db": -0.7242434530888943,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "sequences": {
+        "id": "sequences",
+        "instrument_id": "",
+        "volume_db": -3.0980391997148637,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      },
+      "vinyl": {
+        "id": "vinyl",
+        "instrument_id": "",
+        "volume_db": -7.958800173440752,
+        "pan": 0.0,
+        "muted": false,
+        "solo": false,
+        "voice_pocket": false,
+        "sidechain": null,
+        "fx_chain": [],
+        "sends": {}
+      }
+    },
+    "send_busses": {
+      "reverb": {
+        "id": "reverb",
+        "fx_chain": [
+          {
+            "plugin_type": "reverb",
+            "params": {
+              "decay_time_s": 2.0,
+              "damp_hz": 4200.0
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      },
+      "delay": {
+        "id": "delay",
+        "fx_chain": [
+          {
+            "plugin_type": "delay",
+            "params": {
+              "delay_ms": 350.0,
+              "feedback": 0.4
+            },
+            "mix": 1.0,
+            "enabled": true
+          }
+        ],
+        "volume_db": 0.0
+      }
+    },
+    "master_fx": []
+  },
+  "master_bus_fx": [
+    {
+      "plugin_type": "transient",
+      "params": {
+        "attack_db": 1.8,
+        "sustain_db": -0.6
+      },
+      "mix": 1.0,
+      "enabled": true
+    },
+    {
+      "plugin_type": "distortion",
+      "params": {
+        "drive": 1.15,
+        "mode": "tape",
+        "tone": 0.75
+      },
+      "mix": 0.2,
+      "enabled": true
+    }
+  ],
+  "mastering": {
+    "target_lufs": -15.0,
+    "peak_ceiling_db": -0.8,
+    "tape_warmth_enabled": true,
+    "sidechain_duck_db": 4.2,
+    "voice_pocket": {
+      "enabled": true,
+      "center_freq_hz": 2400.0,
+      "gain_db": -2.8,
+      "q_factor": 0.85
+    },
+    "fade_in_s": null,
+    "fade_out_s": null
+  },
+  "metadata": {
+    "track_number": 2,
+    "concept": "Orthogonal Hodge cycle circulation over D Dorian discrete transition currents."
+  }
+}

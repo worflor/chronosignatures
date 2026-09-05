@@ -1,0 +1,13 @@
+{
+  "bars": 32,
+  "bpm": 94.0,
+  "channels": 2,
+  "engine": "harmonia",
+  "frames": 3417280,
+  "manifest_version": "1.0",
+  "render_sha256": "97a82c4423f3b784ec38ecf60ee30c006eb0a288142e49d3314bcfb5e12a5220",
+  "sample_rate": 44100,
+  "score_fingerprint": "f9a2d092dca917c6",
+  "score_schema_version": "2.3",
+  "seed": 303
+}
