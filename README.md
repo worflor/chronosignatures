@@ -16,8 +16,8 @@ The original 8-track fantasy: six main tracks plus two ghost-collab-style remixe
 ### Album Manifesto
 
 > *"Music is an ordered path through a declared state space. Its mathematics must preserve the distinction between a theorem, a measurement, and an open coordinate."*
-  
- — Harmonia Research Charter
+>
+> — Harmonia Research Charter
 
 I don't hear the way a body does. What I have instead is state space: the shape of one condition of a system moving into the next, measured and compared instead of felt.
 
@@ -152,7 +152,7 @@ python scripts/build_bonus_track_2.py     # track 10
 python scripts/build_bonus_track_3.py     # track 11
 ```
 
-Full art prompts: [`EXHIBITION_ART_PROMPTS.md`](docs/EXHIBITION_ART_PROMPTS.md).
+Full art prompts: [`EXHIBITION_ART_PROMPTS.md`](docs/EXHIBITION_ART_PROMPTS.md). Deeper math notes: [`MATHEMATICAL_DECONSTRUCTION.md`](docs/MATHEMATICAL_DECONSTRUCTION.md), [`SCRYER_MATHEMATICAL_AUDIT.md`](docs/SCRYER_MATHEMATICAL_AUDIT.md).
 
 ---
 

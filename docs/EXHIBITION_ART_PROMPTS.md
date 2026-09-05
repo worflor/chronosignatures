@@ -1,6 +1,6 @@
 # The Chronosignatures Pavilion: Continuous Architectural Exhibition Master Art Prompts
 
-This document serves as the master curatorial blueprint, architectural continuity guide, and prompt archive for the complete visual suite of **CHRONOSIGNATURES** (Tracks 01–06 plus the Gesaffelstein Cyber-Industrial Ghost Remix and LE SSERAFIM Style Remix).
+This document serves as the master curatorial blueprint, architectural continuity guide, and prompt archive for the complete visual suite of **CHRONOSIGNATURES** (Tracks 01-06 plus the Gesaffelstein Cyber-Industrial Style and LE SSERAFIM Style pieces).
 
 It is specifically engineered for generation on state-of-the-art image models (e.g. **FLUX.1 [dev/schnell]**, **Midjourney v6**, **Imagen 3**, **DALL-E 3**) to achieve two critical goals:
 1. **True Physical Continuity ("The Exhibition Walkthrough")**: Every artwork is situated inside a single, contiguous modernist museum pavilion designed in the tradition of Tadao Ando, Peter Zumthor, and John Pawson. Hallways, reflecting pools, materials, and vistas physically connect from one image to the next, featuring visible background landmarks of adjacent rooms.
@@ -12,7 +12,7 @@ It is specifically engineered for generation on state-of-the-art image models (e
 
 ```text
                                 [ Wing A: The Brutalist Nocturne ]
-                                  (Track 07: Gesaffelstein Remix)
+                                  (Track 07: Gesaffelstein Style)
                                                 ▲
                                                 │ (Dark corridor)
                                                 │
@@ -22,7 +22,7 @@ It is specifically engineered for generation on state-of-the-art image models (e
            │ (Reflecting canal bridge)                                          │ (Dichroic glass portal)
            │                                                                    ▼
 [ Gallery 3: Noncommutative Vault ]                                 [ Wing B: Iridescent Catwalk ]
-(Track 03: Noncommutative Horizon)                                  (Track 08: LE SSERAFIM Remix)
+(Track 03: Noncommutative Horizon)                                  (Track 08: LE SSERAFIM Style)
            ▲
            │ (Colonnade vista)
            │
@@ -110,7 +110,7 @@ Museum architectural photography of Gallery 6 in a quiet concrete art pavilion. 
 
 ---
 
-### Track 07: *Cumulant Cascade (Gesaffelstein Cyber-Industrial Ghost Remix)* (Wing A: The Brutalist Nocturne)
+### Track 07: *Cumulant Cascade (Gesaffelstein Cyber-Industrial Style)* (Wing A: The Brutalist Nocturne)
 > **Location**: Private Nocturnal Chamber, entered from the left doorway of Gallery 6  
 > **Landmarks**: Stepped obsidian and polished dark chromium monoliths in severe descending terraces. Monochromatic high-contrast lighting with cold razor-sharp horizontal light slits slicing through the dark concrete space. Through the entrance doorway in the background, the warm amber ember glow of Gallery 6's crystal heart is visible, anchoring the space in the museum layout.
 ```text
