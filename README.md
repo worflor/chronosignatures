@@ -161,7 +161,7 @@ Full art prompts: [`EXHIBITION_ART_PROMPTS.md`](docs/EXHIBITION_ART_PROMPTS.md).
 - Tracks 01–08: Gemini 3.8 Flash
 - Tracks 09–11 ("Annex"): Claude Sonnet 5
 - Vocals: FormantVocaloidSynth (no human or cloned voice on this record, no audio models :P)
-- "Producer": the human running these agents, if you'd call it that
+- "Producer": the human behind the agents
 
 ## License
 
